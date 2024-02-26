@@ -14,14 +14,14 @@
         }
 
         header {
-            background-color: #333;
+            background-color: #2c3e50; /* Dark blue color for header */
             color: #fff;
             padding: 10px;
             text-align: center;
         }
 
         nav {
-            background-color: #444;
+            background-color: #34495e; /* Darker blue color for navigation */
             color: #fff;
             padding: 10px;
             text-align: center;
@@ -35,7 +35,18 @@
 
         main {
             padding: 20px;
+            text-align: center; /* Center align the content within the main section */
         }
+
+            main img {
+                max-width: 80%; /* Set maximum width to 80% of its container */
+                width: auto; /* Allow the image to scale proportionally */
+                height: auto; /* Maintain the aspect ratio of the image */
+                margin: 0 10%; /* Set 10% margin on the left and right sides */
+                display: block; /* Center the image horizontally */
+                border-radius: 8px; /* Add a slight border radius for aesthetics */
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+            }
 
         footer {
             background-color: #333;
@@ -50,18 +61,18 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
+        <h1>Welcome to Chupa Life</h1>
     </header>
 
     <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <a href="#" style="background-color: #2c3e50;">Home</a>
+        <a href="#" style="background-color: #2c3e50;">About</a>
+        <a href="#" style="background-color: #2c3e50;">Contact</a>
     </nav>
 
     <main>
-        <h2>About Us</h2>
-        <p>This is a basic HTML website created by even.</p>
+        <p>Sjå på chupaen!</p>
+        <img src="chupaImage.jpg" alt="ChupaImage">
     </main>
 
     <footer>
